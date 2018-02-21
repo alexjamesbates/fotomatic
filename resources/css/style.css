@@ -183,6 +183,7 @@ header .mobile {
     height: auto;
     background-color: transparent;
     border: none;
+    margin-left: 0;
   }
 
   #sign-up-cta .content {
@@ -360,12 +361,12 @@ header .mobile {
   color: #4a4a4a;
 }
 
-#quotes-section quote-citation {
+#quotes-section .quote-citation {
   height: 1.875rem;
 }
 
 @media only screen and (max-width: 760px) {
-  #quotes-section content {
+  #quotes-section .content {
     padding: 1.875rem .625rem;
   }
 
@@ -374,7 +375,7 @@ header .mobile {
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
